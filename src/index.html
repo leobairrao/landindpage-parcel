@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
@@ -17,10 +17,44 @@
             <p class="hero__text">
                 O aniversário começa em 10d 12h 9m 53s
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Mr Hoppy - Santa Mônica - Florianópolis
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        07/06/2025 às 20h
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirmar presença
+                </a>
+            </div>
         </div>
     </header>
 
+    <section class="event event--convite">
+        <div class="container" data-aos="fade-right">
+            <div class="evento__detail">
+                <h2 class="event__detail__title">Titulo</h2>
+                <p class="event__detail__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fugit accusantium aut natus deserunt a maxime hic repellat! Exercitationem enim ullam sit delectus, saepe magni rerum non autem illum odit?</p>
+            </div>
+            <img class="event__image" src="./images/20240609_170120.jpg" alt="Pessoa">
+        </div>
+    </section>
+    <section class="event event--local event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="evento__detail">
+                <h2 class="event__detail__title">Titulo</h2>
+                <p class="event__detail__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fugit accusantium aut natus deserunt a maxime hic repellat! Exercitationem enim ullam sit delectus, saepe magni rerum non autem illum odit?</p>
+            </div>
+            <img class="event__image" src="./images/mr-hoppy.png" alt="Pessoa">
+        </div>
+    </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
